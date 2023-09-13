@@ -1,0 +1,19 @@
+.form-item {
+  text-align: left;
+
+  .controller-box.error {
+    border-radius: 4px;
+    border: 1px solid #eb5757;
+    overflow: hidden;
+  }
+  .form-label {
+    font-size: 11px;
+    color: #9499c3;
+  }
+
+  .error {
+    color: #eb5757;
+    font-size: 9px;
+    line-height: 12px;
+  }
+}

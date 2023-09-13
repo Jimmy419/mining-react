@@ -1,0 +1,51 @@
+.miner-creator {
+  .inner-title {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .sub-form-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sub-form-box-item {
+    width: 30%;
+  }
+
+  .form-item-kit {
+    background-color: #242538;
+    width: 100%;
+    line-height: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 8px;
+  }
+
+  .totl {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #eb5757;
+  }
+
+  .btn {
+    border-radius: 8px;
+    background-color: #e1e2ef;
+    color: #1a1b2f;
+    font-size: 12px;
+    font-family: "Lato";
+    min-width: 90px;
+    height: 28px;
+    border-radius: 8px;
+    box-shadow: none;
+    outline: 0;
+    margin-top: 20px;
+    border: 0;
+    cursor: pointer;
+  }
+}

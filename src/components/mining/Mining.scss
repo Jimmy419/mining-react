@@ -1,0 +1,60 @@
+.map-box {
+  position: relative;
+  max-width: 100vw;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+
+  .planet-box {
+    position: absolute;
+    width: 10%;
+    transform: translate(-50%, -50%);
+  }
+
+  .mining-map {
+    width: 100%;
+  }
+
+  .icon-miner {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    transition: all 1s linear;
+    /* transition: width .25s linear 1.9s, background 1s 2s, transform 2s; */
+  }
+
+  .icon-miner::before {
+    color: #fff;
+  }
+
+  .asteroid-box {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 5%;
+  }
+
+  .asteroid-img {
+    width: 100%;
+  }
+}
+
+/*
+@media (min-width: 576px) {
+  .icon-miner {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon-miner {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon-miner {
+    font-size: calc(100%);
+  }
+} */

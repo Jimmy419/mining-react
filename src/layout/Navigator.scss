@@ -1,0 +1,32 @@
+.navigator {
+  display: flex;
+  padding-left: 20px;
+  .active-link {
+    .link-item {
+      border: 1px solid #32334a;
+    }
+    .nav-icon::before {
+      color: #38d9a9;
+    }
+  }
+
+  .link-item {
+    width: 70px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .nav-icon::before {
+    color: #fff;
+  }
+
+  .nav-icon {
+    font-size: 32px;
+  }
+
+  .nav-text {
+    color: #9499c3;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,25 @@
+.planet-cube {
+  position: relative;
+  .current-miner {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.6vw;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    white-space: nowrap;
+    font-family: "Lato";
+  }
+
+  .current-miner.done {
+    color: #00cf67;
+  }
+
+  .planet {
+    width: 100%;
+  }
+
+  .planet-img {
+    width: 100%;
+  }
+}

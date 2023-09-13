@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./lato/lato-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src:
+    url('./lato/lato-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./lato/lato-v17-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('./lato/lato-v17-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('./lato/lato-v17-latin-regular.svg#lato') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./lato/lato-v17-latin-700.eot'); /* IE9 Compat Modes */
+  src:
+    url('./lato/lato-v17-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./lato/lato-v17-latin-700.woff') format('woff'),
+    /* Modern Browsers */ url('./lato/lato-v17-latin-700.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('./lato/lato-v17-latin-700.svg#lato') format('svg'); /* Legacy iOS */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./poppins/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src:
+    url('./poppins/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./poppins/poppins-v15-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('./poppins/poppins-v15-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('./poppins/poppins-v15-latin-regular.svg#poppins') format('svg'); /* Legacy iOS */
+}
