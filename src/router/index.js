@@ -1,7 +1,5 @@
 // router index.js
 import MinersView from "../pages/MinersView";
-import AsteroidsView from "../pages/AsteroidsView";
-import PlanetsView from "../pages/PlanetsView";
 
 const routers = [
   {
@@ -12,12 +10,12 @@ const routers = [
   {
     path: "/asteroids",
     name: "AsteroidsView",
-    components: AsteroidsView,
+    components: () => import("../pages/AsteroidsView"),
   },
   {
     path: "/planets",
     name: "PlanetsView",
-    components: PlanetsView,
+    components: () => import("../pages/PlanetsView"),
   },
 ];
 
